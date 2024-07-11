@@ -16,8 +16,12 @@
   @font-face {
     font-family: 'heading';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-display: swap;
-    src: url(./assets/fonnts.com-Vincente-.otf) format('woff2');
+    src: url(./assets/fonnts.com-Vincente-Semi-Bold.otf) format('woff2');
   }
+}
+
+:root{
+  --primary : #7E2446;
 }

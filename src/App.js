@@ -3,6 +3,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout';
 import Home from './pages/Home';
+import Collection from './pages/Collection';
 
 function App() {
   
@@ -22,7 +23,7 @@ function App() {
               index element={<Home />} /> 
 
               
-              {/* <Route path="about" element={<AboutPage/>}/>    */}
+              <Route path="collection" element={<Collection/>}/>   
 
               {/* <Route path="search/:value" element={<SearchPage searchValue={searchValue} setSearchValue={setSearchValue} />}/> */}
 
