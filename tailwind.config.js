@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      heading: ["heading"],
+      subheading: ["EB Garamond"],
+      body: ["body"],
+    },
   },
   plugins: [],
 }

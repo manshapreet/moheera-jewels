@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
 
-    <div className='grid grid-cols-5 gap-2 px-16 h-[80px] items-center justify-center font-[body] font-light text-[#3E3E3E] text-sm bg-white'>
+    <div className='grid grid-cols-5 gap-2 px-16 h-[80px] items-center justify-center font-body font-light text-[#3E3E3E] text-sm bg-white'>
 
       <div>ABOUT US</div>
       <div>SHIPPING & PAYMENTS</div>

@@ -1,6 +1,9 @@
 import React from 'react'
 import Product from './Product'
 import product1 from '../../assets/product1.png'
+import product2 from '../../assets/product2.png'
+import product3 from '../../assets/product3.png'
+import product4 from '../../assets/product4.png'
 
 
 const menuList = [
@@ -8,52 +11,49 @@ const menuList = [
         id: 1,
         name: "Earring",
         category : "Ear",
-        description: "Crispy rolls stuffed with fresh vegetables",
+        description: "",
         price: 5.99,
-        image: "../../assets/product1.png"
+        image: product1
     },
     {
         id: 2,
         name: "Anklet",
         category : "Feet",
-        description: "Toasted bread with garlic and butter",
+        description: "",
         price: 3.99,
-        image: "../../assets/product2.png"
+        image: product2
     },
   
     {
         id: 3,
         name: "Bracelet",
         category: "Hand",
-        description: "Succulent grilled chicken served with vegetables",
+        description: "",
         price: 12.99,
-        image: "../../assets/product3.png"
+        image: product3
     },
     {
         id: 4,
         name: "Necklace",
         category: "Neck",
-        description: "Layers of pasta with vegetables and cheese",
+        description: "",
         price: 10.99,
-        image: "../../assets/product4.png"
+        image: product4
     },
   ]
 
 const Products = () => {
   return (
-    <div className='Menu'>
+    <div className='p-16 menu'>
 
-        <div className=''>Our Menu</div>
+        <div className='font-subheading text-3xl mb-8'>Our Collection</div>
 
-        <div className=''>
-        
-            <div className='menuCategory'>
+        <div className='flex flex-wrap gap-8 justify-center'>
 
             {menuList.map((item, i) => 
                     <Product item={item} key={i}/>
-                )}
-            </div>
-            <img src={menuList[0].image} alt="" />
+            )}
+
         </div>
     </div>
   )
