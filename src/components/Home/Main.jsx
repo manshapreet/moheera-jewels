@@ -7,7 +7,7 @@ const Main = () => {
 
   return (
 
-    <div className='h-[calc(100vh-80px)] flex gap-2 pl-16 items-center justify-between'>
+    <div className='h-[calc(100vh-80px)] flex gap-2 pl-24 items-center justify-between'>
 
         <div className='h-[100%] flex flex-col justify-between text-left pt-4 pb-8'>
             <img src={watermark} alt="" className='w-[80px]'/>

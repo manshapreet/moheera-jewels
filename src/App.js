@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './Layout';
 import Home from './pages/Home';
 import Collection from './pages/Collection';
+import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
 
   return (
 
-
+  <ShoppingCartProvider>
     <Routes>
         
       <Route  path="/" element={<Layout/>}>
@@ -32,6 +33,7 @@ function App() {
       </Route>
     
     </Routes> 
+    </ShoppingCartProvider>
   );
 }
 
