@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #E5DADA;
+    /* background-color: var(--secondary); */
     padding: 64px 80px;
     min-height: 100vh;
     align-items: center;
@@ -10,9 +11,9 @@
 .loveLettersBox{
     background-color: white;
     max-width: 1000px;
-    border: 2px solid #DAB9C7;
+    border: 2px solid var(--secondary);
     /* border: 2px solid var(--primary); */
-    /* color: #9D7484; */
+    color: #cc7c8a;
     padding: 64px 80px 80px;
     display: flex;
     flex-direction: column;
