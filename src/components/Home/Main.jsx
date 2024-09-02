@@ -13,7 +13,7 @@ const Main = () => {
             <img src={watermark} alt="" className='w-[80px]'/>
 
             <div>
-                <div className='font-heading text-[48px] leading-[48px] tracking-wide'>
+                <div className='font-heading text-[48px] leading-[48px] tracking-wide uppercase'>
                     Contemporary <br />Designs Made With <br />Innovation
                 </div>
                 <div className='mt-6 font-body text-xs'>
