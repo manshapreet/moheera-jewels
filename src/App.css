@@ -1,9 +1,9 @@
 body{
   background-image: url(./assets/Gradient.png);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 5898px;
+  /* height: 5898px; */
 }
 
 .App {
