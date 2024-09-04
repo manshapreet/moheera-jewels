@@ -3,6 +3,12 @@ import './Bespoke.css'
 import { Link } from 'react-router-dom'
 
 const Bespoke = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+    
     return (
         <div className='Bespoke'>
             <div className='font-subheading text-4xl'>

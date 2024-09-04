@@ -3,6 +3,12 @@ import './CustomEngRings.css'
 import img from '../../../assets/customring.png'
 
 const CustomEngRings = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+    
     return (
         <div className='CustomEngRings'>
             <div className='CER_Header'>
