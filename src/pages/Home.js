@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from '../components/Home/Main'
 import About from '../components/Home/About/About'
 import ProductDisplay from '../components/Home/ProductDisplay/ProductDisplay'
@@ -8,6 +8,11 @@ import Contact from '../components/Home/Contact/Contact'
 import About2 from '../components/Home/About2/About2'
 
 const Home = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <Main/>

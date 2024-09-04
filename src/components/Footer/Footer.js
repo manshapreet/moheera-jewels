@@ -6,17 +6,57 @@ import footerimg from '../../assets/footerimg.png'
 const Footer = () => {
     return (
         <div className='Footer'>
-            <div className='grid grid-cols-4 gap-2 px-16 h-[100px] items-center justify-center font-body font-light text-[#3E3E3E] text-sm bg-white'>
+            <div className='flex gap-20 px-20 py-12 items-center justify-start font-body font-light text-[#3E3E3E] text-sm bg-white text-left'>
 
-                <div>ABOUT US</div>
-                <div>SHIPPING & PAYMENTS</div>
-                <div><Link to='/collection'>COLLECTION</Link></div>
-                <div>CONTACTS</div>
+                <div>
+                    <div className='font-bold text-base text-black mb-2'>THE BRAND</div>
+                    <div>
+                        <Link to='/ourstory'>Our Story</Link>
+                    </div>
+                    <div>
+                        <Link to='/bespokeprocess'>Bespoke Process</Link>
+                    </div>
+                    <div>
+                        <Link to='/collection'>Collections</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Custom Engagement Rings</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Lab Diamonds Guidance</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Media</Link>
+                    </div>
+                </div>
+
+                <div>
+                    <div className='font-bold text-base text-black mb-2'>CUSTOMER CARE</div>
+                    <div>
+                        <Link to=''>FAQs</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Jewellery Care</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Size Guide</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Terms & Conditions</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Privacy Policy</Link>
+                    </div>
+                    <div>
+                        <Link to=''>Contact</Link>
+                    </div>
+                </div>
+
 
             </div>
 
             <div className='footerImg'>
-                <img src={footerimg}/>
+                <img src={footerimg} />
             </div>
         </div>
     )
