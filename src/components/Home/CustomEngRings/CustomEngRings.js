@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './CustomEngRings.css'
 import img from '../../../assets/customring.png'
 
@@ -8,7 +8,7 @@ const CustomEngRings = () => {
         window.scrollTo(0, 0)
     }, [])
 
-    
+
     return (
         <div className='CustomEngRings'>
             <div className='CER_Header'>
