@@ -20,7 +20,7 @@ const Footer = () => {
                         <Link to='/collection'>Collections</Link>
                     </div>
                     <div>
-                        <Link to=''>Custom Engagement Rings</Link>
+                        <Link to='customengagementrings'>Custom Engagement Rings</Link>
                     </div>
                     <div>
                         <Link to=''>Lab Diamonds Guidance</Link>
