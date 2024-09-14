@@ -3,17 +3,14 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout';
 import Home from './pages/Home';
-import Collection from './pages/Collection';
+import Collection from './components/Collection/Collection';
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 import OurStory from './components/OurStory/OurStory';
 import Bespoke from './components/Home/Bespoke/Bespoke';
 import CustomEngRings from './components/Home/CustomEngRings/CustomEngRings';
+import Cart from './components/Cart/Cart';
 
 function App() {
-
-
-
-  // const connect_ref = useRef(null);
 
 
   return (
@@ -30,6 +27,7 @@ function App() {
           <Route path="collection" element={<Collection />} />
           <Route path="bespokeprocess" element={<Bespoke />} />
           <Route path="customengagementrings" element={<CustomEngRings />} />
+          <Route path="cart" element={<Cart />} />
 
           {/* <Route path="search/:value" element={<SearchPage searchValue={searchValue} setSearchValue={setSearchValue} />}/> */}
 
