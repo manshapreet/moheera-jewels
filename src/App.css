@@ -10,3 +10,13 @@ body{
   text-align: center;
   color: var(--primary);
 }
+
+.navAnim{
+  height: 0px;
+  opacity: 0;
+  transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+.navAnim.active{
+  opacity: 1;
+  height: 144px;
+}

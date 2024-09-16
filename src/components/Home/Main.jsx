@@ -11,7 +11,7 @@ const Main = () => {
 
         <div className='h-[calc(100vh-60px)] flex'>
 
-            <div className='w-[50%] h-[100%]'>
+            <div className='w-[50%] h-[100%] z-1 pointer-events-none'>
             <video width={600}
                 autoPlay 
                 loop 
@@ -23,7 +23,7 @@ const Main = () => {
             </video>
             </div>
 
-            <div className='w-[50%] h-[100%]'>
+            <div className='w-[50%] h-[100%] z-1 pointer-events-none'>
             <video width={600}
                 autoPlay 
                 loop 
