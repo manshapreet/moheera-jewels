@@ -12,11 +12,14 @@ body{
 }
 
 .navAnim{
-  height: 0px;
+  max-height: 0;
+  overflow: hidden;
   opacity: 0;
-  transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 .navAnim.active{
   opacity: 1;
-  height: 144px;
+  height: auto;
+  max-height: 144px;
+  overflow: hidden;
 }

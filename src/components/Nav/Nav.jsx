@@ -33,7 +33,7 @@ const Nav = () => {
       </div>
 
 
-      <div className={isNavOpen? 'bg-white absolute top-[80px] left-0 right-0 py-6 px-16 flex flex-col items-start z-3 navAnim active custom-shadow font-body': 'bg-white absolute top-[80px] left-0 right-0 py-6 px-16 flex flex-col items-start z-1 navAnim font-body'}>
+      <div className={isNavOpen? 'bg-white absolute top-[80px] left-0 right-0 py-6 px-16 flex flex-col items-start z-3 navAnim active custom-shadow font-body': 'bg-white absolute top-[80px] left-0 right-0 py-0 px-16 flex flex-col items-start z-1 navAnim font-body'}>
         <div>
           <Link to='/ourstory'>OUR STORY</Link>
         </div>
