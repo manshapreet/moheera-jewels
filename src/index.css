@@ -24,8 +24,10 @@
 
 :root{
   /* --primary : #7C2447; */
-  --primary : #CC929B;
+  /* --primary : #CC929B; */
+  --primary : #CB919A;
   --secondary: #7C2447;
+  --light : #FACBCC;
   --black: #1A1816;
 }
 

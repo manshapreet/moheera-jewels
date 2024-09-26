@@ -7,6 +7,23 @@ body{
   color: var(--primary);
 }
 
+button{
+  border-radius: 30px;
+  padding: 0 12px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+}
+button>*{
+  background-color: var(--light);
+  color: var(--black);
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .navAnim{
   max-height: 0;
   overflow: hidden;

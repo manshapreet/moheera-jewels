@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <>
 
-      <div className='relative flex grid grid-cols-3 items-center px-16 h-[80px] items-center justify-center font-body font-light bg-[var(--black)] text-sm bg-white z-2 font-body'>
+      <div className='relative flex grid grid-cols-3 items-center px-16 h-[80px] items-center justify-center font-body font-light bg-[var(--black)] text-sm z-2 font-body'>
 
         <div className=''>
           {isNavOpen ?

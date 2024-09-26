@@ -1,18 +1,36 @@
 import React from 'react'
 import './BoxEngagement.css'
+import Img from '../../../assets/ceg/customring.png'
+import icon from '../../../assets/ceg/icon.png'
 import { Link } from 'react-router-dom'
 
 const BoxEngagement = () => {
     return (
-        <div className='BoxEngagement'>
-            <div className='font-subheading text-4xl'>
-                Begin your own custom design journey today by using our Engagement Ring Builder.
+        <div className='CEG'>
+
+            <div className='HomeCEGImgDiv'>
+                <img src={Img} />
             </div>
-            <Link to='/customengagementrings'>
-                <button className='text-xs font-bold py-3 px-6 border-2 border-[var(--primary)] bg-[var(--primary)] text-white'>
-                    CUSTOM ENGAGEMENT RINGS
-                </button>
-            </Link>
+
+            <div className='homeCEGContent'>
+                <div className='font-heading CEGText'>
+                    <span>Begin your own</span>
+                    <span> custom design jour</span>
+                    <span>-ney today by using</span>
+                    {/* <span>adipiscing elit, sed</span> */}
+                </div>
+
+                <Link to='/customengagementrings'>
+                    <button className=''>
+                        <span>Custom Engagement Rings</span>
+                    </button>
+                </Link>
+            </div>
+
+            <div className='iconCEG'>
+                <img src={icon} />
+            </div>
+
         </div>
     )
 }
