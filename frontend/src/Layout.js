@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
-import icon from './assets/carticon.png'
+import icon from './assets/icons/cart.svg'
 import { useShoppingCart } from './context/ShoppingCartContext';
 
 
